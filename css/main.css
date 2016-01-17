@@ -35,6 +35,10 @@ body {
   font-size: 1rem;
   font-weight: normal;
   margin: 0;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  top: 25px;
 }
 
 .band {
@@ -42,7 +46,9 @@ body {
   margin: 0;
   color: #666;
   position: absolute;
-  width: auto;
+  width: 100%;
+  text-align: center;
+  bottom: 15px;
 }
 
 .album {
@@ -89,10 +95,16 @@ body {
 
 .time-lapsed {
   font-size: .7rem;
+  position: absolute;
+  bottom: 10px;
+  left: 55px;
 }
 
 .time-total {
   font-size: .7rem;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 }
 
 .controls {
@@ -105,7 +117,10 @@ body {
 }
 
 .control-shuffle {
-
+  position: absolute;
+  left: 60px;
+  bottom: 30px;
+  font-size: 1rem;
 }
 
 .control-list {
