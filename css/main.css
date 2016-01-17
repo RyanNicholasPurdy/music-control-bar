@@ -124,9 +124,15 @@ body {
 }
 
 .control-list {
-
+  position: absolute;
+  right: 10px;
+  bottom: 30px;
+  font-size: 1.7rem;
 }
 
 .control-heart {
-
+  position: absolute;
+  right: 30px;
+  bottom: 28px;
+  font-size: 1.3rem;
 }
